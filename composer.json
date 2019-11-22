@@ -1,0 +1,41 @@
+{
+    "name"       : "codesphp/hgbrasil",
+    "description": "CodesPHP - HG Brasil SDK",
+    "license"    : "MIT",
+    "type"       : "library",
+
+    "keywords"   : [
+        "codesphp",
+        "hgbrasil",
+        "api",
+        "sdk"
+    ],
+
+    "authors": [
+        {
+            "name": "Bruno Gonçalves",
+            "email": "bugotech@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.6.4",
+        "codesphp/support": "1.0.*",
+        "guzzlehttp/guzzle": "6.3.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CodesPhp\\HgBrasil\\": "src/"
+        }
+    },
+
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    
+    "minimum-stability": "dev",
+    "prefer-stable"    : true
+}
